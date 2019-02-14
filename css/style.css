@@ -11,12 +11,12 @@
 }
 
 body {
-    background-color: white;
+    background-color: black;
 }
 
 .siliconValley {
-    width: 50%;
-    height:50%;
+    width: 25%;
+    height:25%;
 }
 
 #caption {
@@ -54,4 +54,46 @@ button {
 body{
 
     margin-left:20px;
+    
+}
+h1{
+    font-family: 'Coiny', cursive;
+    color:#0000FF;
+}
+h2{
+    font-family: 'Roboto Mono', monospace;
+    color:white;
+    
+}
+p{
+    
+color:white;
+}
+button:hover{
+        cursor:url(black.cur),auto;
+}
+h1:hover{
+        cursor:url(brown.cur),auto;
+}
+image:hover{
+        cursor:url(.cur);
+}
+#question1:hover{
+    cursor:url(blue.cur),auto;
+}
+#question2:hover{
+   cursor:url(gray.cur),auto;
+}
+#question3:hover{
+  cursor:url(green.cur),auto;
+}
+#question4:hover{
+ cursor:url(pink.cur),auto;
+}
+#question5:hover{
+ cursor:url(purple.cur),auto;
+        
+}
+#question6:hover{
+ cursor:url(red.cur),auto;
 }
